@@ -26,6 +26,9 @@ sudo apt install keepass2 -y
 sudo apt install vlc -y
 sudo apt install npm -y
 
+### Angular CLI ###
+sudo npm install -g @angular/cli
+
 ### Oh my zsh ###
 sudo apt install zsh -y
 # take care this link can change any time
