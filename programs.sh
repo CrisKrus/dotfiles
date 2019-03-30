@@ -25,6 +25,7 @@ sudo apt install obs-studio -y
 sudo apt install keepass2 -y
 sudo apt install vlc -y
 sudo apt install npm -y
+sudo apt install autojump -y
 
 ### Angular CLI ###
 sudo npm install -g @angular/cli
@@ -37,9 +38,9 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 chsh -s $(which zsh)
 
 ### Autojump ###
-git clone git://github.com/wting/autojump.git
-cd autojump
-./install.py
+echo "" >> ~/.zshrc
+echo "### Autojump ###" >> ~/.zshrc
+echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
 
 ### Custormize dock ###
 gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#d3d3d3'

@@ -18,7 +18,7 @@ Software to install
 - [x] moeditor (md viewer)
 
 - [ ] calendar
-- [ ] WIP autojump
+- [x] autojump
 - [ ] thunderbird
 - [ ] trello
 - [ ] infinite bash history
