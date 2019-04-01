@@ -1,5 +1,16 @@
 #/bin/bash!
 
+### Oh my zsh ###
+sudo apt install zsh -y
+# take care this link can change any time
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+# after that to use zsh by default zsh
+chsh -s $(which zsh)
+
+# open zsh to install all the packages on it
+# before this need to create a `~/.zshrc` file with the configuration
+# zsh
+
 ########## Add repositories ##########
 
 # spotify
@@ -25,22 +36,9 @@ sudo apt install obs-studio -y
 sudo apt install keepass2 -y
 sudo apt install vlc -y
 sudo apt install npm -y
-sudo apt install autojump -y
 
 ### Angular CLI ###
 sudo npm install -g @angular/cli
-
-### Oh my zsh ###
-sudo apt install zsh -y
-# take care this link can change any time
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-# after that to use zsh by default zsh
-chsh -s $(which zsh)
-
-### Autojump ###
-echo "" >> ~/.zshrc
-echo "### Autojump ###" >> ~/.zshrc
-echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
 
 ### Custormize dock ###
 gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#d3d3d3'
@@ -60,11 +58,5 @@ gsettings set org.gnome.desktop.interface clock-show-date true
 # https://github.com/LukeSmithxyz/voidrice/tree/master/.scripts/statusbar
 # https://www.youtube.com/watch?v=MNwpdqD_I8Y&t=799s
 
-### Dropbox ###
-# this option can't run on start up
-# cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-# ~/.dropbox-dist/dropboxd &
-
+### Dropbox  ###
 ### Moeditor ###
-# source to download .deb
-# https://github.com/Moeditor/Moeditor/releases/download/v0.2.0-beta/moeditor_0.2.0-1_amd64.deb
