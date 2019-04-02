@@ -34,6 +34,7 @@ sudo apt install docker -y
 sudo apt install spotify-client -y
 sudo apt install obs-studio -y
 sudo apt install keepass2 -y
+sudo apt install xdotool -y # need this for autotype on keepass
 sudo apt install vlc -y
 sudo apt install npm -y
 
