@@ -52,6 +52,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items false
 
 ### Customize interface ###
 gsettings set org.gnome.desktop.interface clock-show-date true
+gsettings set org.gnome.desktop.calendar show-weekdate true
 # show battery percentage in case that you use laptop
 # gsettings set org.gnome.desktop.interface show-battery-percentage true
 
