@@ -1,11 +1,11 @@
 #/bin/bash!
 
 ### Oh my zsh ###
-sudo apt install zsh -y
+# sudo apt install zsh -y
 # take care this link can change any time
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+# sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # after that to use zsh by default zsh
-chsh -s $(which zsh)
+# chsh -s $(which zsh)
 
 # open zsh to install all the packages on it
 # before this need to create a `~/.zshrc` file with the configuration
@@ -14,14 +14,14 @@ chsh -s $(which zsh)
 ########## Add repositories ##########
 
 # spotify
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+# echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 # OBS
-sudo add-apt-repository ppa:obsproject/obs-studio
+# sudo add-apt-repository ppa:obsproject/obs-studio
 
 # KeePass
-sudo add-apt-repository ppa:eugenesan/ppa
+# sudo add-apt-repository ppa:eugenesan/ppa
 
 ##########  Update system   ##########
 sudo apt update
@@ -31,15 +31,13 @@ sudo apt upgrade
 sudo apt install vim -y
 sudo apt install git -y
 sudo apt install docker -y
-sudo apt install spotify-client -y
+# sudo apt install spotify-client -y
 sudo apt install obs-studio -y
-sudo apt install keepass2 -y
-sudo apt install xdotool -y # need this for autotype on keepass
-sudo apt install vlc -y
+sudo apt install keepassx -y
 sudo apt install npm -y
 
 ### Angular CLI ###
-sudo npm install -g @angular/cli
+# sudo npm install -g @angular/cli
 
 ### Custormize dock ###
 gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#d3d3d3'
@@ -61,4 +59,8 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 # https://www.youtube.com/watch?v=MNwpdqD_I8Y&t=799s
 
 ### Dropbox  ###
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd &
+# todo set on startup
+
 ### Moeditor ###
