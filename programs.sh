@@ -24,6 +24,7 @@ sudo apt install keepassx -y
 sudo apt install npm -y
 sudo apt install code -y
 
+# todo jetbrains toolbox
 
 ### Configure Docker to use it without sudo ###
 sudo groupadd docker
