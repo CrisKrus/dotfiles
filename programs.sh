@@ -16,13 +16,16 @@ sudo apt update
 
 ### Install software ###
 
-sudo apt install vim -y
-sudo apt install git -y
-sudo apt install docker.io -y
-sudo apt install obs-studio -y
-sudo apt install keepassx -y
-sudo apt install npm -y
-sudo apt install code -y
+install=sudo apt install -y
+
+$install vim
+$install git
+$install docker.io
+$install obs-studio
+$install keepassx
+$install npm
+$install code
+$install lm-sensors
 
 # todo jetbrains toolbox
 
