@@ -27,8 +27,6 @@ $install npm
 $install code
 $install lm-sensors
 
-# todo jetbrains toolbox
-
 ### Configure Docker to use it without sudo ###
 sudo groupadd docker
 sudo usermod -aG docker $USER
@@ -43,17 +41,11 @@ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items false
 
-# TODO set up dark theme
-
 ### Customize interface ###
 gsettings set org.gnome.desktop.interface clock-show-date true
 gsettings set org.gnome.desktop.calendar show-weekdate true
 # show battery percentage in case that you use laptop
 # gsettings set org.gnome.desktop.interface show-battery-percentage true
-
-### WIP resources status bar ###
-# https://github.com/LukeSmithxyz/voidrice/tree/master/.scripts/statusbar
-# https://www.youtube.com/watch?v=MNwpdqD_I8Y&t=799s
 
 ### Dropbox  ###
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -

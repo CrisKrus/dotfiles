@@ -1,4 +1,5 @@
 alias pls='sudo'
+alias install='sudo apt install -y'
 
 ### Finder alias ###
 alias ll='ls -l'
