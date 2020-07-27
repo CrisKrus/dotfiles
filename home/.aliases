@@ -1,7 +1,8 @@
+### System ###
 alias pls='sudo'
 alias install='sudo apt install -y'
 
-### Finder alias ###
+### Finder ###
 alias ll='ls -l'
 alias grep='grep --color'
 alias t='tail -f'
@@ -27,3 +28,6 @@ alias gf='git fetch'
 alias gl='git pull'
 alias glo='git log --oneline --decorate'
 alias gp='git push'
+
+### Others ###
+alias listen-myself="arecord -f cd - | aplay - "

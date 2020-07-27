@@ -5,10 +5,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
     command-not-found
     history
-    sudo
-    aterminal # need to be installed
     git
-    # python pip django
     docker
     mvn
     npm
