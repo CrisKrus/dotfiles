@@ -6,17 +6,14 @@ Things that I want to add on this repo
 - [ ] autojump
 - [ ] zsh
 - [ ] oh my zsh
+- [ ] remove snap shop
 - [ ] show system realtime resources
-    - https://www.youtube.com/watch?v=UP2QpHmcgyk
-    - https://github.com/lukesmithxyz/dwmblocks
-    - https://github.com/lukesmithxyz/dwm
-    - https://www.youtube.com/watch?v=MNwpdqD_I8Y
-    - https://github.com/LukeSmithxyz/voidrice/tree/master
-
+    - indicator-multiload
 
 - [ ] slack
 - [ ] IDEs
-    - [ ] Intellij (jetbraings toolbar)
+    - [ ] Intellij (jetbraings toolbar) https://www.jetbrains.com/toolbox-app/download/download-thanks.html
 - [ ] zoom
 - [ ] python environment
 - [ ] nvm
+- [ ] pulse secure
