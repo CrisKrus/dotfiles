@@ -21,11 +21,16 @@ install=sudo apt install -y
 $install vim
 $install git
 $install docker.io
+$install docker-compose
 $install obs-studio
 $install keepassx
 $install npm
 $install code
 $install lm-sensors
+
+### Working things ###
+
+
 
 ### Configure Docker to use it without sudo ###
 sudo groupadd docker
