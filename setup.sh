@@ -11,17 +11,7 @@ sudo apt upgrade -y
 
 sudo apt update
 
-### Install software ###
-install=sudo apt install -y
-
-$install vim
-$install git
-$install obs-studio
-$install keepassx
-$install npm
-$install code
-$install lm-sensors
-$install zsh
+sudo apt install -y vim git obs-studio keepassx npm code lm-sensors zsh
 
 ### Working things ###
 sh ./install/vscode.sh
