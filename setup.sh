@@ -1,9 +1,9 @@
 #!/bin/bash
 
 rm ~/.profile
-ln -s ~/.dotfiles/home/.profile ~/.profile
-ln -s ~/.dotfiles/home/.aliases ~/.aliases
-ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/home/profile ~/.profile
+ln -s ~/.dotfiles/home/aliases ~/.aliases
+ln -s ~/.dotfiles/home/gitconfig ~/.gitconfig
 
 ### Update system ###
 sudo apt update
