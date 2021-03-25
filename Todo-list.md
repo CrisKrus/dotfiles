@@ -12,5 +12,3 @@ Things that I want to add on this repo
 - [ ] IDEs
     - [ ] Intellij (jetbraings toolbar) https://www.jetbrains.com/toolbox-app/download/download-thanks.html
 - [ ] zoom
-- [ ] python environment
-- [ ] nvm
