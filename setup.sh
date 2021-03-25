@@ -2,7 +2,7 @@
 
 rm ~/.profile
 ln -s ~/.dotfiles/home/profile ~/.profile
-ln -s ~/.dotfiles/home/aliases ~/.aliases
+ln -s ~/.dotfiles/home/aliases ~/.bash_aliases
 ln -s ~/.dotfiles/home/gitconfig ~/.gitconfig
 
 ### Update system ###
@@ -11,7 +11,7 @@ sudo apt upgrade -y
 
 sudo apt update
 
-sudo apt install -y vim git obs-studio keepassx npm code lm-sensors zsh
+sudo apt install -y vim git obs-studio keepassx npm code lm-sensors zsh fzf
 
 ### Working things ###
 sh ./install/vscode.sh
