@@ -10,4 +10,4 @@ Things that I want to add on this repo
 - [ ] slack
 - [ ] IDEs
     - [ ] Intellij (jetbraings toolbar) https://www.jetbrains.com/toolbox-app/download/download-thanks.html
-- [ ] zoom
+- [ ] [zoom][https://zoom.us/client/latest/zoom_amd64.deb]
