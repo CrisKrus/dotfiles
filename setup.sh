@@ -1,15 +1,13 @@
 #!/bin/bash
 
-rm ~/.profile
-ln -s ~/.dotfiles/home/profile ~/.profile
-ln -s ~/.dotfiles/home/aliases ~/.bash_aliases
-ln -s ~/.dotfiles/home/gitconfig ~/.gitconfig
+rm $HOME/.profile
+ln -s $HOME/.dotfiles/home/profile $HOME/.profile
+ln -s $HOME/.dotfiles/home/aliases $HOME/.bash_aliases
+ln -s $HOME/.dotfiles/home/gitconfig $HOME/.gitconfig
 
 ### Update system ###
 sudo apt update
 sudo apt upgrade -y
-
-sudo apt update
 
 sudo apt install -y vim git obs-studio keepassx npm code lm-sensors zsh fzf
 
